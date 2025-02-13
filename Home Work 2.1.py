@@ -1,8 +1,9 @@
-user_input = input("Please enter the integer number: ") #2048
+user_input = input  #1234
 print(user_input)
-int(2048)
-number = int(user_input)
-print(number//2)
-print(number//2//128)
-print(number//2//128*5)
-print(number//2//128*5//2)
+int(1234)
+number = int(1234)
+print(1*1)
+print(2%4)
+print(3//1)
+print(4//1)
+
