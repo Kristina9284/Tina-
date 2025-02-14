@@ -1,9 +1,15 @@
-user_input = input () #1234
-print(user_input)
-int(1234)
-number = int(1234)
-print(1*1)
-print(2%4)
-print(3//1)
-print(4//1)
+value = input(1234)
+print(value//1000)
+x, y = divmod(value, 1000)
+x1, y = divmod(y,100)
+print(y//100)
+print(y//10)
+
+
+
+
+
+
+
+
 
