@@ -1,5 +1,17 @@
-a = int(input("..."))
-x = a * 56
-y = a + x // 1
-x1 = y - x + 6
-print(x1)
+x = int(input("Число"))
+a = (input('/,+,-,*'))
+y = int(input("Число"))
+if a == "+":
+ print(x+y)
+elif a == "-":
+ print(x-y)
+if a == "*":
+ print(x*y)
+elif a == "//":
+ print(x//y)
+if y != 0:
+    print(x//y)
+else:
+    print("нельзя // на 0 ")
+
+
